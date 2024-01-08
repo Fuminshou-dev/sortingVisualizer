@@ -19,6 +19,8 @@ h1 {
     grid-template-columns: 20% 80%;
 
 }
+
+
 .newDiv {
     /* display: flex;
     align-items: center;
@@ -26,6 +28,11 @@ h1 {
     color: red;
     background-color: cyan;
     border: 1px solid cyan;
+}
+.sorted {
+
+    background-color: white;
+    border: 1px solid black;
 }
 #newArray {
     background-color: cyan;

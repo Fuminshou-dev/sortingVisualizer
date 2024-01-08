@@ -17,7 +17,7 @@ function displayMerged() {
     sortedArr.forEach(element => {
         const newDiv = document.createElement('div')
         newDiv.id = element
-        newDiv.className = "newDiv"
+        newDiv.className = "newDiv sorted"
         newDiv.innerHTML = ''
         newDiv.style.height = element*300 + "%"
         visDiv.append(newDiv)
