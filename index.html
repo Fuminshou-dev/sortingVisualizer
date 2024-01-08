@@ -7,7 +7,7 @@
     </title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload="displayArray()">
     <div id="main">
         <div id="header">
             <div id="createBtn">
@@ -15,7 +15,7 @@
             </div>
             <div id="sortBtn">
 
-                <button id="merge">Merge sort</button>
+                <button id="mergeBTN" onclick="mergeSort(newArray); displayMerged()" class="mergeBTN">Merge sort</button>
                 <button id="quick">Quick sort</button>
                 <button id="heap">Heap sort</button>
                 <button id="bubble">Bubble sort</button>
@@ -23,19 +23,9 @@
             </div>
         </div>
         <div id="visualize">
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
-            <h1>element</h1>
         </div>
     </div>
+    <script src="mergeSort.js" defer></script>
     <script src="index.js" defer></script>
-
 </body>
 </html>

@@ -20,11 +20,12 @@ h1 {
 
 }
 .newDiv {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     color: red;
-    border: 2px solid white;
+    background-color: cyan;
+    border: 1px solid cyan;
 }
 #newArray {
     background-color: cyan;
@@ -34,8 +35,9 @@ h1 {
 
 #visualize {
     display: grid;
-    grid-template-columns: repeat(10, 10%);
+    grid-template-columns: repeat(100, 1%);
     grid-template-rows: max-content;
+    height: 1vh;
 }
 
 #sortBtn > * {
